@@ -1,6 +1,6 @@
 # Lambda functions:
 
-# adding through lambda function:
+# adding through a lambda function:
 
 addition = lambda a,b: (a+" "+b)
 print(f"The addition is: {addition("hello","word!")}")
@@ -19,6 +19,7 @@ uppercase = lambda s: s.upper()
 print(uppercase(input("enter a string: ")))
 
 reversing = lambda s : s[::-1]
-
+reverse_list = lambda l : l[::-1]
 print(reversing("Hello"))
+print(reverse_list([5,4,3,2,1])
 
